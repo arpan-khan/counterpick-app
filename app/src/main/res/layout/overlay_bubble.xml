@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="62dp"
+    android:layout_height="62dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/overlay_bubble_bg" />
+
+    <ImageView
+        android:id="@+id/bubble_label"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_overlay_bubble"
+        android:contentDescription="CounterPick overlay" />
+
+</FrameLayout>

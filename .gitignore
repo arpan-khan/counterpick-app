@@ -1,0 +1,38 @@
+# ===== Gradle =====
+.gradle/
+build/
+**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ===== Local / Machine-specific =====
+local.properties
+*.properties
+!gradle.properties
+
+# ===== Android / Kotlin =====
+*.iml
+.kotlin/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+*.ap_
+
+# ===== Keystore / Secrets (NEVER commit these) =====
+*.jks
+*.keystore
+keystore.properties
+
+# ===== IDEs =====
+/.idea/
+.DS_Store
+*.swp
+*.swo
+
+# ===== OS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini

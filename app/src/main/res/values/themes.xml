@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base platform theme; actual theming is done via Compose Material3 in ui/theme -->
+    <style name="Theme.CounterPick" parent="android:Theme.Material.NoActionBar" />
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ASSUMPTION: placeholder icon (the web app's gold ring/crosshair mark, simplified).
+     Swap for a real app icon whenever you have one; this just satisfies the manifest
+     reference so the project builds in Android Studio out of the box. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M54,30 A24,24 0 1 1 53.9,30 Z"
+        android:strokeColor="#FFB238"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M54,48 m-8,0 a8,8 0 1 1 16,0 a8,8 0 1 1 -16,0"
+        android:fillColor="#FF4D5E"/>
+</vector>
